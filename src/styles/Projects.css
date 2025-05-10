@@ -1,0 +1,125 @@
+.projects {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  h2{
+    background: linear-gradient(90deg, #FF8660 0%, #9A33FF 100%);
+    background-clip: text;
+    color: transparent;
+    display: block; /* Ensures gradient works properly */
+  }
+  
+  .project-row-fixed {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .project-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+
+  .project-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .project-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .project-card .btn:hover {
+    background-color: #007acc;
+  }
+  
+  @media (max-width: 768px) {
+    .project-row-fixed {
+      flex-direction: column;
+    }
+    .project-card {
+      width: 100%;
+    }
+  }
+  .projects {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .project-row-fixed {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .project-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .project-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .project-card .btn:hover {
+    background-color: #007acc;
+  }
+  
+  @media (max-width: 768px) {
+    .project-row-fixed {
+      flex-direction: column;
+    }
+    .project-card {
+      width: 100%;
+    }
+  }
+  

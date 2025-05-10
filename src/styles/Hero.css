@@ -1,0 +1,79 @@
+.hero {
+    text-align: center;
+    animation: fadeInUp 1s ease-out;
+    padding: 60px 20px;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  h1{
+    background: linear-gradient(90deg, #FF8660 0%, #9A33FF 100%);
+    background-clip: text;
+    color: transparent;
+    display: block; /* Ensures gradient works properly */
+  }
+  
+  
+  .hero-profile-pic {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #333;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #007acc;
+  }
+  
+  .btn.outline {
+    background-color: transparent;
+    color: #333;
+    border: 2px solid #333;
+  }
+  
+  .btn.outline:hover {
+    color: #007acc;
+    border-color: #007acc;
+  }
+
+  
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
