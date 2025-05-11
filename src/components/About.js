@@ -47,11 +47,7 @@ function About() {
         </div>
       </div>
 
-      <p>I'm a web developer and aspiring data scientist passionate about creating engaging web experiences and working with databases. 
-
-I'm proficient in front-end development and database SQL. 
-
-I develop responsive websites and am dedicated to helping clients establish a strong online presence. I am always striving to learn about the newest technologies and frameworks</p>
+      <p>I'm a web developer and aspiring data scientist passionate about creating engaging web experiences and working with databases. I'm proficient in front-end development and SQL databases. I develop responsive websites and am dedicated to helping clients establish a strong online presence. I am always striving to learn about the newest technologies and frameworks.</p>
 
 
       <div className="experience-with">

@@ -32,10 +32,46 @@
     display: flex;
     gap: 1.5rem;
   }
+
   
+  
+
   .nav-links li a {
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
   }
-  
+
+ 
+.hamburger {
+  display: none;
+  background: none;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #111;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    display: none;
+    color: white;
+    list-style-type: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
